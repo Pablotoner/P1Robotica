@@ -1,0 +1,5 @@
+  File "/home/pablo/ros_ws/src/practica1/install/practica1/lib/python3.12/site-packages/practica1/obstacle_avoider.py", line 31
+    else
+        ^
+SyntaxError: expected ':'
+
