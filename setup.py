@@ -23,7 +23,7 @@ setup(
     entry_points={
         'console_scripts': [
             'my_robot_driver = practica1.my_robot_driver:main',
-            'obstacle_avoider = practica1.obstacle_avoider:main'
+            'objetos_seguir = practica1.objetos_seguir:main'
         ],
     },
 )

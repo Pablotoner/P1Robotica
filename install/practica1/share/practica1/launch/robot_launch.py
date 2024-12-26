@@ -22,15 +22,15 @@ def generate_launch_description():
         ]
     )
 
-    obstacle_avoider = Node(
+    objetos_seguir = Node(
         package='practica1',
-        executable='obstacle_avoider',
+        executable='objetos_seguir',
     )
 
     return LaunchDescription([
         webots,
         my_robot_driver,
-        obstacle_avoider,
+        objetos_seguir,
         launch.actions.RegisterEventHandler(
             event_handler=launch.event_handlers.OnProcessExit(
                 target_action=webots,

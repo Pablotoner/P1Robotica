@@ -1,0 +1,51 @@
+[0.000000] (-) TimerEvent: {}
+[0.000271] (practica1) JobQueued: {'identifier': 'practica1', 'dependencies': OrderedDict()}
+[0.000342] (practica1) JobStarted: {'identifier': 'practica1'}
+[0.098949] (-) TimerEvent: {}
+[0.199243] (-) TimerEvent: {}
+[0.299560] (-) TimerEvent: {}
+[0.399844] (-) TimerEvent: {}
+[0.500123] (-) TimerEvent: {}
+[0.600397] (-) TimerEvent: {}
+[0.700674] (-) TimerEvent: {}
+[0.800938] (-) TimerEvent: {}
+[0.901211] (-) TimerEvent: {}
+[1.001484] (-) TimerEvent: {}
+[1.101705] (-) TimerEvent: {}
+[1.201966] (-) TimerEvent: {}
+[1.302236] (-) TimerEvent: {}
+[1.384202] (practica1) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/practica1', 'build', '--build-base', '/home/pablo/ros_ws/src/practica1/build/practica1/build', 'install', '--record', '/home/pablo/ros_ws/src/practica1/build/practica1/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pablo/ros_ws/src/practica1', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'es_ES', 'USER': 'pablo', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/pablo', 'DESKTOP_SESSION': 'cinnamon', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'CINNAMON_VERSION': '6.2.9', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'INSIDE_NEMO_PYTHON': '', 'COLCON_PREFIX_PATH': '/home/pablo/ros_ws/src/practica1/install:/home/pablo/ros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pablo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c1', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/pablo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/PabloGC:@/tmp/.ICE-unix/1364,unix/PabloGC:/tmp/.ICE-unix/1364', 'GDM_LANG': 'es_ES', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0bd5198f_7e9a_4612_bb15_75239c5d5ead', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'X-Cinnamon', 'XDG_SESSION_DESKTOP': 'cinnamon', 'XAUTHORITY': '/home/pablo/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.425', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/pablo', 'AMENT_PREFIX_PATH': '/home/pablo/ros_ws/src/practica1/install/practica1:/home/pablo/ros_ws/install/super_pkg:/home/pablo/ros_ws/install/car_csv:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'cinnamon', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'XDG_VTNR': '7', 'PWD': '/home/pablo/ros_ws/src/practica1/build/practica1', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-cinnamon:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/cinnamon:/usr/share/gnome:/home/pablo/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share', 'PYTHONPATH': '/home/pablo/ros_ws/src/practica1/build/practica1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pablo/ros_ws/src/practica1/install/practica1/lib/python3.12/site-packages:/home/pablo/ros_ws/src/practica1/install/practica1/lib/python3.12/site-packages:/home/pablo/ros_ws/install/super_pkg/lib/python3.12/site-packages:/home/pablo/ros_ws/install/car_csv/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.402352] (-) TimerEvent: {}
+[1.502664] (-) TimerEvent: {}
+[1.602976] (-) TimerEvent: {}
+[1.703278] (-) TimerEvent: {}
+[1.803590] (-) TimerEvent: {}
+[1.867990] (practica1) StdoutLine: {'line': b'running egg_info\n'}
+[1.903734] (-) TimerEvent: {}
+[1.908224] (practica1) StdoutLine: {'line': b'writing build/practica1/practica1.egg-info/PKG-INFO\n'}
+[1.908562] (practica1) StdoutLine: {'line': b'writing dependency_links to build/practica1/practica1.egg-info/dependency_links.txt\n'}
+[1.908883] (practica1) StdoutLine: {'line': b'writing entry points to build/practica1/practica1.egg-info/entry_points.txt\n'}
+[1.909162] (practica1) StdoutLine: {'line': b'writing requirements to build/practica1/practica1.egg-info/requires.txt\n'}
+[1.909464] (practica1) StdoutLine: {'line': b'writing top-level names to build/practica1/practica1.egg-info/top_level.txt\n'}
+[1.987433] (practica1) StdoutLine: {'line': b"reading manifest file 'build/practica1/practica1.egg-info/SOURCES.txt'\n"}
+[1.987864] (practica1) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.988738] (practica1) StdoutLine: {'line': b"writing manifest file 'build/practica1/practica1.egg-info/SOURCES.txt'\n"}
+[1.989048] (practica1) StdoutLine: {'line': b'running build\n'}
+[1.989208] (practica1) StdoutLine: {'line': b'running build_py\n'}
+[1.989464] (practica1) StdoutLine: {'line': b'running install\n'}
+[1.999268] (practica1) StdoutLine: {'line': b'running install_lib\n'}
+[2.003812] (-) TimerEvent: {}
+[2.040202] (practica1) StdoutLine: {'line': b'running install_data\n'}
+[2.040869] (practica1) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.080620] (practica1) StdoutLine: {'line': b"removing '/home/pablo/ros_ws/src/practica1/install/practica1/lib/python3.12/site-packages/practica1-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[2.081070] (practica1) StdoutLine: {'line': b'Copying build/practica1/practica1.egg-info to /home/pablo/ros_ws/src/practica1/install/practica1/lib/python3.12/site-packages/practica1-0.0.0-py3.12.egg-info\n'}
+[2.082431] (practica1) StdoutLine: {'line': b'running install_scripts\n'}
+[2.103934] (-) TimerEvent: {}
+[2.204239] (-) TimerEvent: {}
+[2.304531] (-) TimerEvent: {}
+[2.334146] (practica1) StdoutLine: {'line': b'Installing my_robot_driver script to /home/pablo/ros_ws/src/practica1/install/practica1/lib/practica1\n'}
+[2.334444] (practica1) StdoutLine: {'line': b'Installing objetos_seguir script to /home/pablo/ros_ws/src/practica1/install/practica1/lib/practica1\n'}
+[2.334893] (practica1) StdoutLine: {'line': b"writing list of installed files to '/home/pablo/ros_ws/src/practica1/build/practica1/install.log'\n"}
+[2.370195] (practica1) CommandEnded: {'returncode': 0}
+[2.384467] (practica1) JobEnded: {'identifier': 'practica1', 'rc': 0}
+[2.385367] (-) EventReactorShutdown: {}

@@ -7,9 +7,9 @@ from geometry_msgs.msg import Twist
 MAX_RANGE = 0.15
 
 
-class ObstacleAvoider(Node):
+class objetosSeguir(Node):
     def __init__(self):
-        super().__init__('obstacle_avoider')
+        super().__init__('objetos_seguir')
 
         self.__publisher = self.create_publisher(Twist, 'cmd_vel', 1)
 
@@ -27,21 +27,21 @@ class ObstacleAvoider(Node):
         command_message.linear.x = 0.1
         #cuanto mas cerca, mas bajo
         if self.__left_sensor_value < self.__right_sensor_value:
-            command_message.angular.z = 0.4
+            command_message.angular.z = 0.6
         else:
-            command_message.angular.z = -0.4
+            command_message.angular.z = -0.6
 
         self.__publisher.publish(command_message)
 
 
 def main(args=None):
     rclpy.init(args=args)
-    avoider = ObstacleAvoider()
-    rclpy.spin(avoider)
+    seguir = objetosSeguir()
+    rclpy.spin(seguir)
     # Destroy the node explicitly
     # (optional - otherwise it will be done automatically
     # when the garbage collector destroys the node object)
-    avoider.destroy_node()
+    seguir.destroy_node()
     rclpy.shutdown()
 
 
